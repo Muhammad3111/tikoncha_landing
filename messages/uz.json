@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "title": "Tikoncha - Raqamli himoya tizimi",
+    "description": "Tikoncha — insonlarni raqamli chalg'ituvchilardan himoya qiluvchi maxsus tizim. Farzandlaringiz va o'zingizni ijtimoiy tarmoqlar va o'yinlardan himoya qiling.",
+    "keywords": "raqamli himoya, bolalarni nazorat, ekran vaqti, fokus rejimi, ota-ona nazorati, Tikoncha, O'zbekiston"
+  },
+  "nav": {
+    "features": "Imkoniyatlar",
+    "pricing": "Obuna",
+    "mission": "Missiya",
+    "team": "Jamoa",
+    "download": "Yuklab olish"
+  },
+  "hero": {
+    "badge": "Kelajak avlod himoyasi",
+    "title1": "Raqamli olamda",
+    "title2": "xavfsiz kelajak",
+    "description": "Tikoncha — farzandlaringiz va o'zingizni raqamli chalg'ituvchilardan himoya qiluvchi zamonaviy yechim. Diqqatni jamlang, vaqtni tejang.",
+    "getOnGooglePlay": "Get it on",
+    "googlePlay": "Google Play",
+    "watchVideo": "Videoni ko'rish"
+  },
+  "features": {
+    "title": "Asosiy Imkoniyatlar",
+    "description": "Bizning tizim orqali hayotingiz sifatini oshiring va raqamli balansni toping.",
+    "smartBlock": {
+      "title": "Aqlli Bloklash",
+      "description": "Belgilangan vaqtda o'yin va ijtimoiy tarmoqlarni avtomatik cheklaydi. Sizning vaqtingiz — sizning nazoratingizda."
+    },
+    "focusMode": {
+      "title": "Fokus Rejimi",
+      "description": "Dars qilish yoki ishlash vaqtida to'liq diqqatni jamlashga yordam beradi. Samaradorlikni 3 barobargacha oshiring."
+    },
+    "statistics": {
+      "title": "Statistika",
+      "description": "Haftalik va oylik hisobotlar orqali o'zgarishlarni kuzatib boring. Yutuqlaringizni yaqqol ko'ring."
+    }
+  },
+  "pricing": {
+    "badge": "Obuna Rejalari",
+    "title": "O'zingizga mos rejani tanlang",
+    "description": "Tikoncha barcha uchun moslashuvchan shartlarni taklif etadi.",
+    "perMonth": "/ oy",
+    "perChild": "/ oy (bola uchun)",
+    "perFamily": "/ oy (10 bolagacha)",
+    "yearly": "Yillik",
+    "free": {
+      "name": "Bepul",
+      "price": "$0",
+      "features": {
+        "stats": "Faqat bugun va kechagi statistika",
+        "tasks": "2 ta smart vazifa",
+        "messages": "Kuniga 10 ta chat xabari",
+        "noWeekly": "Haftalik statistika yo'q",
+        "limits": "Cheklovlar: 1 qoʻshimcha jadval, max 2 ilova, 1 qoida, \"Oq ro'yxat\" yo'q"
+      },
+      "cta": "Boshlash"
+    },
+    "plus": {
+      "name": "Plus",
+      "price": "$1",
+      "recommended": "TAVSIYA ETILADI",
+      "yearlyPrice": "Yillik: $8 (+600 tanga)",
+      "features": {
+        "unlimited": "Cheksiz statistika va tarix",
+        "tasks": "Cheksiz vazifalar va jadvallar",
+        "allowlist": "\"Oq ro'yxat\" (Allowlist) rejimi",
+        "bonus": "Har oy +50 AI tanga bonus",
+        "qsqa": "QSQA platformasiga obuna"
+      },
+      "cta": "Tanlash"
+    },
+    "pro": {
+      "name": "Pro (Oila)",
+      "price": "$3",
+      "yearlyPrice": "Yillik: $24 (+2500 tanga)",
+      "features": {
+        "allPlus": "Plus rejasining barcha imkoniyatlari",
+        "family": "10 tagacha bola uchun bitta narx",
+        "coins": "+200 AI tanga (oylik)",
+        "ai": "Bilimdon AI",
+        "aiNote": "*Milliy darsliklar bazasiga ega multimodal AI"
+      },
+      "new": "NEW",
+      "cta": "Oila uchun tanlash"
+    },
+    "coins": {
+      "title": "AI Tangalar",
+      "description": "Bilimdon AI chatidan foydalanish uchun hamyonbop paketlar.",
+      "note": "*Tangalar xarid qiluvchining hisobiga tushadi.",
+      "rate": "Kurs: 1 Tanga = 100 so'm",
+      "discount": "chegirma",
+      "coins": "tanga"
+    }
+  },
+  "mission": {
+    "badge": "Bizning Missiya",
+    "title": "Kelajak avlod ta'limi himoyasida",
+    "description": "\"Tikoncha orqali biz har bir bolaning sifatli ta'lim olish huquqini himoya qilamiz. Bizning jamoa pedagogika va texnologiyani birlashtirib, xavfsiz raqamli muhit yaratadi.\"",
+    "professional": "Professional Jamoa",
+    "security": "100% Xavfsizlik",
+    "quote": "\"Bizning maqsadimiz — texnologiyalarni taqiqlash emas, balki ulardan to'g'ri foydalanishni o'rgatishdir.\"",
+    "founder": "Saidburxon Shuxratov",
+    "founderTitle": "Asoschi va CEO"
+  },
+  "team": {
+    "title": "Jamoamiz",
+    "description": "Bizning kuchimiz — birlikda va tajribada.",
+    "members": {
+      "saidburxon": {
+        "name": "Saidburxon Shuxratov",
+        "role": "Asoschi va CEO"
+      },
+      "ibroximjon": {
+        "name": "Ibroximjon Odilov",
+        "role": "Asosiy Mobil Dasturchi"
+      },
+      "komiljon": {
+        "name": "Komiljon Xamidjonov",
+        "role": "Senior Backend Dasturchi"
+      },
+      "abdurahim": {
+        "name": "Abdurahim Sharipov",
+        "role": "Mobil Dasturchi"
+      },
+      "jamshidbek": {
+        "name": "Jamshidbek Murtazoyev",
+        "role": "QA Muhandis"
+      },
+      "abrorbek": {
+        "name": "Abrorbek Ibroximov",
+        "role": "Senior UI/UX Dizayner"
+      },
+      "saidburxonU": {
+        "name": "Saidburxon Umarxonov",
+        "role": "Loyiha Menejeri"
+      },
+      "muhammadjon": {
+        "name": "Muhammad Karimov",
+        "role": "Frontend Veb Dasturchi"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Yangi avlod ta'limi va raqamli xavfsizlik uchun ishonchli hamkor.",
+    "company": "Kompaniya",
+    "about": "Biz haqimizda",
+    "contact": "Bog'lanish",
+    "location": "Andijon, O'zbekiston",
+    "copyright": "© 2025 NEW EDU MChJ. Barcha huquqlar himoyalangan.",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari"
+  }
+}
+

@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "title": "Tikoncha - Digital Protection System",
+    "description": "Tikoncha — a specialized system that protects people from digital distractions. Protect your children and yourself from social media and games.",
+    "keywords": "digital protection, parental control, screen time, focus mode, child monitoring, Tikoncha, Uzbekistan"
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "mission": "Mission",
+    "team": "Team",
+    "download": "Download"
+  },
+  "hero": {
+    "badge": "Future Generation Protection",
+    "title1": "Safe future",
+    "title2": "in the digital world",
+    "description": "Tikoncha — a modern solution to protect your children and yourself from digital distractions. Focus better, save time.",
+    "getOnGooglePlay": "Get it on",
+    "googlePlay": "Google Play",
+    "watchVideo": "Watch Video"
+  },
+  "features": {
+    "title": "Key Features",
+    "description": "Improve your quality of life and find digital balance with our system.",
+    "smartBlock": {
+      "title": "Smart Blocking",
+      "description": "Automatically restricts games and social media at scheduled times. Your time — under your control."
+    },
+    "focusMode": {
+      "title": "Focus Mode",
+      "description": "Helps you concentrate fully during study or work. Increase productivity by 3x."
+    },
+    "statistics": {
+      "title": "Statistics",
+      "description": "Track changes with weekly and monthly reports. See your achievements clearly."
+    }
+  },
+  "pricing": {
+    "badge": "Subscription Plans",
+    "title": "Choose the right plan for you",
+    "description": "Tikoncha offers flexible terms for everyone.",
+    "perMonth": "/ month",
+    "perChild": "/ month (per child)",
+    "perFamily": "/ month (up to 10 children)",
+    "yearly": "Yearly",
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "features": {
+        "stats": "Statistics for today and yesterday only",
+        "tasks": "2 smart tasks",
+        "messages": "10 chat messages per day",
+        "noWeekly": "No weekly statistics",
+        "limits": "Limits: 1 extra schedule, max 2 apps, 1 rule, no \"Allowlist\""
+      },
+      "cta": "Get Started"
+    },
+    "plus": {
+      "name": "Plus",
+      "price": "$1",
+      "recommended": "RECOMMENDED",
+      "yearlyPrice": "Yearly: $8 (+600 coins)",
+      "features": {
+        "unlimited": "Unlimited statistics and history",
+        "tasks": "Unlimited tasks and schedules",
+        "allowlist": "\"Allowlist\" mode",
+        "bonus": "Monthly bonus +50 AI coins",
+        "qsqa": "QSQA platform subscription"
+      },
+      "cta": "Select"
+    },
+    "pro": {
+      "name": "Pro (Family)",
+      "price": "$3",
+      "yearlyPrice": "Yearly: $24 (+2500 coins)",
+      "features": {
+        "allPlus": "All Plus plan features",
+        "family": "Single price for up to 10 children",
+        "coins": "+200 AI coins (monthly)",
+        "ai": "Bilimdon AI",
+        "aiNote": "*Multimodal AI with national textbook database"
+      },
+      "new": "NEW",
+      "cta": "Select for Family"
+    },
+    "coins": {
+      "title": "AI Coins",
+      "description": "Affordable packages for using Bilimdon AI chat.",
+      "note": "*Coins are credited to the buyer's account.",
+      "rate": "Rate: 1 Coin = 100 UZS",
+      "discount": "off",
+      "coins": "coins"
+    }
+  },
+  "mission": {
+    "badge": "Our Mission",
+    "title": "Protecting the education of future generations",
+    "description": "\"Through Tikoncha, we protect every child's right to quality education. Our team combines pedagogy and technology to create a safe digital environment.\"",
+    "professional": "Professional Team",
+    "security": "100% Security",
+    "quote": "\"Our goal is not to ban technology, but to teach how to use it properly.\"",
+    "founder": "Saidburxon Shuxratov",
+    "founderTitle": "Founder & CEO"
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Our strength lies in unity and experience.",
+    "members": {
+      "saidburxon": {
+        "name": "Saidburxon Shuxratov",
+        "role": "Founder & CEO"
+      },
+      "ibroximjon": {
+        "name": "Ibroximjon Odilov",
+        "role": "Lead Mobile Developer"
+      },
+      "komiljon": {
+        "name": "Komiljon Xamidjonov",
+        "role": "Senior Backend Developer"
+      },
+      "abdurahim": {
+        "name": "Abdurahim Sharipov",
+        "role": "Mobile Developer"
+      },
+      "jamshidbek": {
+        "name": "Jamshidbek Murtazoyev",
+        "role": "QA Engineer"
+      },
+      "abrorbek": {
+        "name": "Abrorbek Ibroximov",
+        "role": "Senior UI/UX Designer"
+      },
+      "saidburxonU": {
+        "name": "Saidburxon Umarxonov",
+        "role": "Project Manager"
+      },
+      "muhammadjon": {
+        "name": "Muhammad Karimov",
+        "role": "Frontend Web Developer"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "A trusted partner for next-generation education and digital security.",
+    "company": "Company",
+    "about": "About Us",
+    "contact": "Contact",
+    "location": "Andijan, Uzbekistan",
+    "copyright": "© 2025 NEW EDU LLC. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  }
+}
+
