@@ -62,10 +62,10 @@ export function HeroSection() {
             ref={textRef}
             className="w-full lg:w-1/2 text-center lg:text-left"
           >
-            <div className="hero-badge inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent dark:bg-primary/10 text-primary-dark dark:text-primary-light text-xs font-bold uppercase tracking-wider mb-6 border border-primary/20">
+            {/* <div className="hero-badge inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent dark:bg-primary/10 text-primary-dark dark:text-primary-light text-xs font-bold uppercase tracking-wider mb-6 border border-primary/20">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               {t("badge")}
-            </div>
+            </div> */}
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-[1.15]">
               {t("title1")} <br />

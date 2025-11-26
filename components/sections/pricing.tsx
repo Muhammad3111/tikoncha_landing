@@ -293,7 +293,7 @@ export function PricingSection() {
                     : "bg-white dark:bg-background-dark border border-gray-100 dark:border-border-dark hover:border-primary"
                 }`}
               >
-                {pkg.discount > 20 && (
+                {pkg.discount > 10 && (
                   <div
                     className={`absolute top-0 right-0 text-white text-[10px] px-2 py-1 rounded-bl-lg font-bold ${
                       pkg.discount >= 50 ? "bg-red-600" : "bg-red-500"
@@ -312,7 +312,7 @@ export function PricingSection() {
                 >
                   {pkg.coins} {t("coins.coins")}
                 </div>
-                {pkg.discount === 20 && (
+                {pkg.discount === 10 && (
                   <div className="text-xs text-red-500 font-bold mb-2">
                     -{pkg.discount}% {t("coins.discount")}
                   </div>

@@ -136,9 +136,9 @@ export function MissionSection() {
                 </div>
                 <p className="text-xl font-medium italic">{t("quote")}</p>
                 <div className="mt-6 flex items-center gap-3">
-                  <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary-dark font-bold">
+                  {/* <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary-dark font-bold">
                     S
-                  </div>
+                  </div> */}
                   <div>
                     <div className="font-bold">{t("founder")}</div>
                     <div className="text-sm text-white/60">
