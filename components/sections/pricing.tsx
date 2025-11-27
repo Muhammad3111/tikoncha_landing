@@ -117,9 +117,9 @@ export function PricingSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="pricing-header text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent dark:bg-primary/10 text-primary-dark dark:text-primary-light text-xs font-bold uppercase tracking-wider mb-4">
+          {/* <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent dark:bg-primary/10 text-primary-dark dark:text-primary-light text-xs font-bold uppercase tracking-wider mb-4">
             {t("badge")}
-          </div>
+          </div> */}
           <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("title")}</h2>
           <p className="text-foreground-muted dark:text-foreground-dark-muted max-w-2xl mx-auto text-lg">
             {t("description")}
@@ -161,9 +161,7 @@ export function PricingSection() {
                   <span>{t("free.features.limits")}</span>
                 </li>
               </ul>
-              <Button variant="outline" className="w-full py-3">
-                {t("free.cta")}
-              </Button>
+
             </CardContent>
           </Card>
 
@@ -208,7 +206,7 @@ export function PricingSection() {
                   <span>{t("plus.features.qsqa")}</span>
                 </li>
               </ul>
-              <Button className="w-full py-3 shadow-glow">{t("plus.cta")}</Button>
+
             </CardContent>
           </Card>
 
@@ -252,9 +250,6 @@ export function PricingSection() {
                   <span>{t("pro.features.aiNote")}</span>
                 </li>
               </ul>
-              <Button variant="outline" className="w-full py-3">
-                {t("pro.cta")}
-              </Button>
             </CardContent>
           </Card>
         </div>
@@ -285,30 +280,27 @@ export function PricingSection() {
             {coinPackages.map((pkg, index) => (
               <div
                 key={index}
-                className={`coin-package p-6 rounded-2xl text-center transition-all overflow-hidden ${
-                  pkg.premium
+                className={`coin-package p-6 rounded-2xl text-center transition-all overflow-hidden ${pkg.premium
                     ? "bg-gradient-to-br from-primary/10 to-primary/5 border border-primary hover:shadow-glow"
                     : pkg.featured
-                    ? "bg-white dark:bg-background-dark border border-primary/30 hover:scale-105"
-                    : "bg-white dark:bg-background-dark border border-gray-100 dark:border-border-dark hover:border-primary"
-                }`}
+                      ? "bg-white dark:bg-background-dark border border-primary/30 hover:scale-105"
+                      : "bg-white dark:bg-background-dark border border-gray-100 dark:border-border-dark hover:border-primary"
+                  }`}
               >
                 {pkg.discount > 10 && (
                   <div
-                    className={`absolute top-0 right-0 text-white text-[10px] px-2 py-1 rounded-bl-lg font-bold ${
-                      pkg.discount >= 50 ? "bg-red-600" : "bg-red-500"
-                    }`}
+                    className={`absolute top-0 right-0 text-white text-[10px] px-2 py-1 rounded-bl-lg font-bold ${pkg.discount >= 50 ? "bg-red-600" : "bg-red-500"
+                      }`}
                     style={{ position: "absolute" }}
                   >
                     -{pkg.discount}%
                   </div>
                 )}
                 <div
-                  className={`text-lg font-bold mb-1 ${
-                    pkg.premium
+                  className={`text-lg font-bold mb-1 ${pkg.premium
                       ? "text-yellow-600 dark:text-yellow-400"
                       : "text-yellow-500"
-                  }`}
+                    }`}
                 >
                   {pkg.coins} {t("coins.coins")}
                 </div>
@@ -318,11 +310,10 @@ export function PricingSection() {
                   </div>
                 )}
                 <div
-                  className={`text-xl font-bold ${
-                    pkg.premium
+                  className={`text-xl font-bold ${pkg.premium
                       ? "text-primary-dark dark:text-primary-light"
                       : ""
-                  }`}
+                    }`}
                 >
                   {pkg.price}
                 </div>
