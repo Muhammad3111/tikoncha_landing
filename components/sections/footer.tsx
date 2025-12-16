@@ -210,7 +210,7 @@ export function Footer() {
                     <p>{t("copyright")}</p>
                     <div className="flex gap-6">
                         <Link
-                            href={`/${locale}/privacy-policy`}
+                            href={`/${locale}/policy`}
                             className="hover:text-primary transition-colors"
                         >
                             {t("privacy")}
