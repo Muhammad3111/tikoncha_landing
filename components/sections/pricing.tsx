@@ -10,9 +10,7 @@ import {
     CheckCircle,
     Gift,
     GraduationCap,
-    Users,
     Coins,
-    BrainCircuit,
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { gsap } from "gsap";
@@ -128,7 +126,7 @@ export function PricingSection() {
                 </div>
 
                 {/* Pricing Cards */}
-                <div className="pricing-cards grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+                <div className="pricing-cards grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
                     {/* Free Tier */}
                     <Card className="pricing-card bg-surface-light dark:bg-surface-dark p-8 rounded-3xl border border-gray-100 dark:border-border-dark relative transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/20 hover:border-primary/50 dark:hover:border-primary/50 dark:hover:shadow-primary/30 cursor-pointer overflow-hidden">
                         <CardContent className="p-0">
@@ -210,53 +208,6 @@ export function PricingSection() {
                                 <li className="flex items-start gap-3">
                                     <GraduationCap className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                                     <span>{t("plus.features.qsqa")}</span>
-                                </li>
-                            </ul>
-                        </CardContent>
-                    </Card>
-
-                    {/* Pro Tier */}
-                    <Card className="pricing-card bg-surface-light dark:bg-surface-dark p-8 rounded-3xl border border-gray-100 dark:border-border-dark relative transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/20 hover:border-primary/50 dark:hover:border-primary/50 dark:hover:shadow-primary/30 cursor-pointer">
-                        <CardContent className="p-0">
-                            <h3 className="text-2xl font-bold mb-2">
-                                {t("pro.name")}
-                            </h3>
-                            <div className="flex items-baseline gap-2 mb-1">
-                                <div className="text-3xl font-extrabold text-foreground-main dark:text-white">
-                                    {t("pro.price")}
-                                </div>
-                                <span className="text-foreground-muted">
-                                    {t("perFamily")}
-                                </span>
-                            </div>
-                            <div className="text-sm text-primary font-bold mb-6">
-                                {t("pro.yearlyPrice")}
-                            </div>
-
-                            <ul className="space-y-4 mb-8 text-sm text-foreground-muted dark:text-foreground-dark-muted">
-                                <li className="flex items-start gap-3">
-                                    <Check className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                                    <span>{t("pro.features.allPlus")}</span>
-                                </li>
-                                <li className="flex items-start gap-3">
-                                    <Users className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                                    <span>{t("pro.features.family")}</span>
-                                </li>
-                                <li className="flex items-start gap-3">
-                                    <Coins className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                                    <span>{t("pro.features.coins")}</span>
-                                </li>
-                                <li className="flex items-start gap-3">
-                                    <BrainCircuit className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                                    <span className="font-bold text-foreground-main dark:text-white">
-                                        {t("pro.features.ai")}
-                                    </span>
-                                    <span className="text-xs bg-primary/10 text-primary px-2 py-0.5 rounded ml-1">
-                                        {t("pro.new")}
-                                    </span>
-                                </li>
-                                <li className="flex items-start gap-3 text-xs italic">
-                                    <span>{t("pro.features.aiNote")}</span>
                                 </li>
                             </ul>
                         </CardContent>

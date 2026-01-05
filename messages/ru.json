@@ -58,7 +58,7 @@
         },
         "plus": {
             "name": "Plus",
-            "price": "$1",
+            "price": "$2",
             "recommended": "РЕКОМЕНДУЕТСЯ",
             "yearlyPrice": "Годовая: $8 (+600 монет)",
             "features": {

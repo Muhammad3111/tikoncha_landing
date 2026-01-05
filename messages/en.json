@@ -58,7 +58,7 @@
         },
         "plus": {
             "name": "Plus",
-            "price": "$1",
+            "price": "$2",
             "recommended": "RECOMMENDED",
             "yearlyPrice": "Yearly: $8 (+600 coins)",
             "features": {
