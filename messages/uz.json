@@ -216,5 +216,57 @@
         },
         "tableOfContents": "Mundarija",
         "backToHome": "Bosh sahifaga qaytish"
+    },
+    "parentPrivacyPolicy": {
+        "title": "Tikoncha Ota-ona: Maxfiylik Siyosati",
+        "intro": "“Tikoncha” jamoasi sizning va farzandingizning shaxsiy ma’lumotlari xavfsizligiga jiddiy e’tibor beradi. Ushbu Maxfiylik siyosati biz qanday ma’lumotlarni to‘plashimiz, ulardan qanday foydalanishimiz va sizning huquqlaringizni qanday himoya qilishimizni tushuntiradi.",
+        "sections": {
+            "dataCollection": {
+                "title": "1. Biz qanday ma'lumotlarni to‘playmiz?",
+                "description": "Xizmat sifatini ta'minlash uchun quyidagi ma'lumotlardan foydalanamiz:",
+                "items": [
+                    "Hisob ma'lumotlari: Ro‘yxatdan o‘tish uchun kiritilgan ism, telefon raqam yoki elektron pochta manzili.",
+                    "Farzand qurilmasi ma'lumotlari: “Tikoncha O‘quvchi” ilovasi o‘rnatilgan qurilmaning modeli, o‘rnatilgan ilovalar ro‘yxati, ilovalardan foydalanish vaqti va statistikasi.",
+                    "Joylashuv (Geolokatsiya): Agar siz ushbu funksiyani yoqsangiz, farzandingizning joylashuvi haqidagi ma'lumotlar real vaqt rejimida yig‘iladi.",
+                    "Texnik ma'lumotlar: IP-manzil, qurilma IDsi, operatsion tizim versiyasi va xatoliklar haqidagi hisobotlar (Crash logs).",
+                    "Biz NIMALARNI O‘QIMAYMIZ: Biz hech qachon farzandingizning SMS xabarlarini, ijtimoiy tarmoqdagi yozishmalarini, fotosuratlarini yoki brauzer tarixini (faqat bloklangan saytlar ro‘yxatidan tashqari) o‘qimaymiz va saqlamaymiz."
+                ]
+            },
+            "dataUsage": {
+                "title": "2. Ma'lumotlardan qanday foydalanamiz?",
+                "description": "Yig'ilgan ma'lumotlar quyidagi maqsadlarda ishlatiladi:",
+                "items": [
+                    "Farzandingiz qurilmasini masofadan boshqarish va cheklovlar o‘rnatish uchun.",
+                    "Statistika va hisobotlarni taqdim etish uchun.",
+                    "Xavfsizlik bildirishnomalarini yuborish uchun (masalan, ilova o‘chirilganda yoki geozonadan chiqqanda).",
+                    "Ilova ishlashini yaxshilash va texnik xatolarni tuzatish uchun."
+                ]
+            },
+            "payments": {
+                "title": "3. To‘lovlar va Obuna",
+                "description": "Tikoncha ilovasi Premium funksiyalar uchun obuna xizmatini taklif qilishi mumkin.",
+                "items": [
+                    "To‘lovni qayta ishlash: Biz to‘g‘ridan-to‘g‘ri sizning bank kartangiz ma'lumotlarini saqlamaymiz. Barcha to‘lovlar Google Play Billing, App Store yoki sertifikatlangan mahalliy to‘lov tizimlari (Payme, Click va h.k.) orqali amalga oshiriladi.",
+                    "Avtomatik yangilanish: Obunalar tanlangan davr (oylik/yillik) tugagach, avtomatik ravishda yangilanadi. Siz istalgan vaqtda do‘kon (Google Play / App Store) sozlamalari orqali obunani bekor qilishingiz mumkin.",
+                    "To‘lovlar tarixi: Biz faqat to‘lovning muvaffaqiyatli amalga oshgani va obuna muddati haqidagi ma'lumotni saqlaymiz."
+                ]
+            },
+            "thirdPartySharing": {
+                "title": "4. Ma'lumotlarni uchinchi shaxslarga berish",
+                "description": "Biz sizning shaxsiy ma'lumotlaringizni uchinchi shaxslarga bermaymiz.",
+                "items": [
+                    "Biz sizning shaxsiy ma'lumotlaringizni reklama kompaniyalariga sotmaymiz va uchinchi shaxslarga bermaymiz."
+                ]
+            },
+            "security": {
+                "title": "5. Xavfsizlik",
+                "description": "Ma'lumotlaringizni himoya qilish uchun zamonaviy shifrlash standartlaridan (SSL/TLS) foydalanamiz.",
+                "items": [
+                    "Serverlarimiz himoyalangan va ularga kirish qat’iy cheklangan."
+                ]
+            }
+        },
+        "tableOfContents": "Mundarija",
+        "backToHome": "Bosh sahifaga qaytish"
     }
 }

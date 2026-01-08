@@ -60,7 +60,7 @@
             "name": "Plus",
             "price": "$2",
             "recommended": "RECOMMENDED",
-            "yearlyPrice": "Yearly: $16 (+600 coins)",
+            "yearlyPrice": "Yearly: $18 (+600 coins)",
             "features": {
                 "unlimited": "Unlimited statistics and history",
                 "tasks": "Unlimited tasks and schedules",
@@ -212,6 +212,58 @@
             "contact": {
                 "title": "8. Contact",
                 "description": "If you have questions about the Privacy Policy, you can contact us through official communication channels."
+            }
+        },
+        "tableOfContents": "Table of Contents",
+        "backToHome": "Back to Home"
+    },
+    "parentPrivacyPolicy": {
+        "title": "Tikoncha Parent: Privacy Policy",
+        "intro": "At Tikoncha, we are committed to protecting the privacy and security of you and your child. This Privacy Policy outlines what data we collect, how we use it, and your rights regarding your information.",
+        "sections": {
+            "dataCollection": {
+                "title": "1. Information We Collect",
+                "description": "To provide our parental control services, we collect the following:",
+                "items": [
+                    "Account Information: Name, phone number, or email address used for registration.",
+                    "Child’s Device Data: Device model running the \"Tikoncha Student\" app, list of installed apps, screen time usage, and app statistics.",
+                    "Location Data: If enabled by you, we collect real-time location data of the child's device.",
+                    "Technical Data: IP address, device IDs, OS version, and crash logs.",
+                    "WHAT WE DO NOT ACCESS: We do NOT read, store, or access your child's private text messages (SMS), social media chats, photos, or detailed browser history (except for blocked URL attempts)."
+                ]
+            },
+            "dataUsage": {
+                "title": "2. How We Use Your Data",
+                "description": "To enable remote management and set screen time limits.",
+                "items": [
+                    "To enable remote management and set screen time limits.",
+                    "To provide usage statistics and activity reports.",
+                    "To send safety alerts (e.g., geofence exits, app deletion attempts).",
+                    "To improve app performance and fix technical issues."
+                ]
+            },
+            "payments": {
+                "title": "3. Payments and Subscriptions",
+                "description": "Tikoncha may offer subscription plans for Premium features.",
+                "items": [
+                    "Payment Processing: We do not store your credit card or banking details on our servers. All payments are processed securely through Google Play Billing, App Store, or certified local payment gateways (e.g., Payme, Click).",
+                    "Auto-Renewal: Subscriptions automatically renew at the end of each billing cycle. You can manage or cancel your subscription at any time via your App Store or Google Play account settings.",
+                    "Transaction Data: We only retain data regarding the validity and duration of your subscription status."
+                ]
+            },
+            "thirdPartySharing": {
+                "title": "4. Data Sharing",
+                "description": "We do not sell your personal data to advertisers or share it with third parties.",
+                "items": [
+                    "We do not sell your personal data to advertisers or share it with third parties."
+                ]
+            },
+            "security": {
+                "title": "5. Data Security",
+                "description": "We employ industry-standard encryption (SSL/TLS) to protect your data during transmission and storage.",
+                "items": [
+                    "Access to data is strictly limited to authorized personnel."
+                ]
             }
         },
         "tableOfContents": "Table of Contents",
